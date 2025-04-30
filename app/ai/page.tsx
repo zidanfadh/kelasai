@@ -91,7 +91,7 @@ export default function ai() {
                             className="flex flex-row items-center justify-center md:justify-start text-4xl font-bold tracking-tighter text-right md:text-left md:text-5xl lg:text-7xl"
                         >
                             <span className="mr-2">{'AI'}</span>
-                            <span><AuroraText>Psikolog</AuroraText></span>
+                            <span><AuroraText>Psychology</AuroraText></span>
                         </motion.h1>
 
 
