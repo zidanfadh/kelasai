@@ -109,7 +109,7 @@ export default function ai() {
                             onClick={isListening ? stopListening : startListening}
                             className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md mb-6 w-full"
                         >
-                            {isListening ? 'Stop' : 'Start'} Start Conversation
+                            {isListening ? 'Stop' : 'Start'} Conversation
                         </button>
                         <div className="text-left space-y-2">
                             <p><strong>Transkripsi:</strong> {transcript}</p>
