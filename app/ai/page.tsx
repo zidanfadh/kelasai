@@ -104,12 +104,12 @@ export default function ai() {
                     )}
 
                     <div className="backdrop-blur-md bg-white/20 border border-white/30 rounded-xl shadow-lg p-10 max-w-md w-full text-white">
-                        <h1 className="text-3xl font-bold mb-6 text-center">Voice Assistant</h1>
+                        <h1 className="text-3xl font-bold mb-6 text-center">Tell your story!/h1>
                         <button
                             onClick={isListening ? stopListening : startListening}
                             className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md mb-6 w-full"
                         >
-                            {isListening ? 'Stop' : 'Start'} Listening
+                            {isListening ? 'Stop' : 'Start'} Start Conversation
                         </button>
                         <div className="text-left space-y-2">
                             <p><strong>Transkripsi:</strong> {transcript}</p>
